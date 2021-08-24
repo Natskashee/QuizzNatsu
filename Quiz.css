@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://www.courrierinternational.com/sites/ci_master/files/styles/image_original_1280/public/assets/images/japon_-_le_voyage_de_chihiro_-_miyazaki_-_2001.jpg?itok=48XTQSOY');
+	background-size: cover;
+	background-position: center;
+	height:100vh;
+	font-family: 'Hammersmith One', sans-serif;
+
+}
+
+.header{
+	margin-top: 30px;
+	background-color: white;
+}
+
+.header a{
+	text-decoration:none;
+	color: white;
+	margin-left: 20px;
+	font-size: 2rem;
+}
+
+.header nav li{
+	color: white;
+	margin-right: 50px;
+	display: inline-flex;
+	
+}
+.header .menu{
+	margin-top: 15px;
+}
+
+.header nav{
+	float: right;
+}
+
+.title{
+
+	float: left;
+
+}
+
+.container{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	/*border: 3px solid white;
+	padding: 30px;
+	border-radius: 12px;*/
+	display: none;
+}
+
+button{
+	padding: 10px;
+	background-color:#3EC488;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow:0 0 10px #3EC488;
+	color: white;
+}
+
+h3{
+	display: inline;
+	font-weight: normal;
+}
+
+#final{
+	color: white;
+	position: absolute;
+	top:90%;
+	left: 30%;
+	transform: translateX(-10%);
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	display: none;
+}
+
+.giphy-embed{
+	display: none;
+}
